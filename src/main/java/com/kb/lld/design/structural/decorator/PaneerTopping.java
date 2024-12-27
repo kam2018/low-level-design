@@ -1,7 +1,7 @@
 package com.kb.lld.design.structural.decorator;
 
-public class TopingPaneer extends ThinCrustDecorator{
-    public TopingPaneer(Pizza thinCrustPizza) {
+public class PaneerTopping extends ThinCrustDecorator{
+    public PaneerTopping(Pizza thinCrustPizza) {
         super(thinCrustPizza);
     }
 
